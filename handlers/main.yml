@@ -1,0 +1,3 @@
+---
+- name: restart watchdog daemon
+  service: name="{{watchdog_service_name}}" state=restarted

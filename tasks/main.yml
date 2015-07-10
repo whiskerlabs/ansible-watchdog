@@ -1,0 +1,9 @@
+---
+- name: install the watchdog package
+  apt: pkg=watchdog state=present
+
+- name: configure watchdog daemon
+  template:
+    src: watchdog.conf.j2
+    dest: /etc/watchdog.conf
+  notify: restart watchdog daemon
