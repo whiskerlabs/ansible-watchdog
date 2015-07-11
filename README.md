@@ -1,5 +1,7 @@
 # armsible-watchdog
 
+[![Ansible Galaxy](http://img.shields.io/badge/galaxy-armsible.watchdog-660198.svg)](https://galaxy.ansible.com/list#/roles/4356)
+
 An Ansible role for installing and configuring the
 [software watchdog daemon provided by the Linux kernel](http://linux.die.net/man/8/watchdog).
 
