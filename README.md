@@ -1,6 +1,6 @@
 # armsible-watchdog
 
-[![Ansible Galaxy](http://img.shields.io/badge/galaxy-armsible.watchdog-660198.svg)](https://galaxy.ansible.com/list#/roles/4356)
+[![Ansible Galaxy](http://img.shields.io/badge/galaxy-whiskerlabs.watchdog-660198.svg)](https://galaxy.ansible.com/list#/roles/6649)
 
 An Ansible role for installing and configuring the
 [software watchdog daemon provided by the Linux kernel](http://linux.die.net/man/8/watchdog).
@@ -13,7 +13,7 @@ This role installs the `watchdog` apt package and configures
 
 To install from Ansible Galaxy:
 
-    $ ansible-galaxy install armsible.watchdog
+    $ ansible-galaxy install whiskerlabs.watchdog
 
 Or alternatively, add the path to a local copy of this repository to
 `roles_path` within your project's `ansible.cfg` file:
