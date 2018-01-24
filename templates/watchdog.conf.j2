@@ -10,7 +10,7 @@ admin              = {{watchdog_admin}}
 interval           = {{watchdog_interval}}
 {% endif %}
 {% if watchdog_realtime %}
-realtime           = {{watchdog_realtime}}
+realtime           = {{ "yes" if watchdog_realtime == True else watchdog_realtime }}
 {% endif %}
 {% if watchdog_priority %}
 priority           = {{watchdog_priority}}
