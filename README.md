@@ -1,4 +1,4 @@
-# armsible-watchdog
+# ansible-watchdog
 
 [![Ansible Galaxy](http://img.shields.io/badge/galaxy-whiskerlabs.watchdog-660198.svg)](https://galaxy.ansible.com/list#/roles/6649)
 
@@ -21,7 +21,7 @@ Or alternatively, add the path to a local copy of this repository to
     roles_path = /path/to/role_dir
 
 where `/path/to/role_dir` is a parent directory of
-`armsible-watchdog`.
+`ansible-watchdog`.
 
 Consult
 [Ansible documentation](http://docs.ansible.com/intro_configuration.html)
@@ -34,7 +34,7 @@ Target hosts must be Linux machines running a Debian-based distro. The
 only reason for this is because apt is currently used to install the
 `watchdog` package.
 
-`armsible-watchdog` has no role dependencies.
+`ansible-watchdog` has no role dependencies.
 
 ## Role Variables
 
