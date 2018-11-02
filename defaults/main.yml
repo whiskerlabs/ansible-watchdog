@@ -9,6 +9,9 @@ watchdog_service_name: watchdog.service
 # Path to the watchdog device.
 watchdog_device: /dev/watchdog
 
+# watchdog device timeout during startup.
+watchdog_timeout: ""
+
 # Email address to to which to send admin mail.
 watchdog_admin: ""
 

@@ -3,6 +3,9 @@
 {% if watchdog_device %}
 watchdog-device	   = {{watchdog_device}}
 {% endif %}
+{% if watchdog_timeout %}
+watchdog-timeout    = {{watchdog_timeout}}
+{% endif %}
 {% if watchdog_admin %}
 admin              = {{watchdog_admin}}
 {% endif %}
